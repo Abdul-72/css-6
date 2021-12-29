@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://www.desktopbackground.org/download/o/2010/08/28/70967_life-in-desert-wallpapers-backgrounds-desert-hd-pics_2560x1440_h.jpg);
+    background-size: 100%;
+}
+.firstconatiner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+li {
+    float: left;
+    list-style-type: none;
+    text-decoration-line: none;
+    padding: 30px;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    
+   
+    
+}
+ul {
+    text-decoration-line: none;
+   
+}
+a {
+    text-decoration-line: none;
+    color: white;
+} 
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 100px;
+}
+p {
+    color: white;
+}
+button {
+    width: 150px;
+    border: solid white 2px;
+    border-radius: 30px;
+    height: 50px;
+    font-style: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.box {
+    width: 150px;
+    height: 150px;;
+    
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+.box:hover {
+    transform: translateY(-20px);
+}
+.images {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px;
+    position: relative;
+    bottom: 400px;
+    left: 700px;
+    
+    
+}
+.western {
+    background-image: url(./camel.jpeg);
+    background-size: 150px;
+}
+.albagat {
+    background-image: url(./montain.jpeg);
+    background-size: 150px;
+}
+.pyramid {
+    background-image: url(./blackmountain.jpeg);
+    background-size: 150px;
+}
+.kahahari {
+    background-image: url(./sky.jpeg);
+    background-size: 150px;
+}
+
+
+@media screen and (max-width:360px)  {
+    body {
+        background-size: 2500px;
+        
+
+    }
+    li {
+        position: relative;
+        left: 50px;
+        padding: 25px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .images {
+      grid-template-columns: 1px;
+      position: relative;
+      bottom: -20px;
+      left: 0px;
+       
+    }
+
+
+}
+    

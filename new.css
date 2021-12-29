@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+
+
+}
+.main {
+    width: 300px;
+    height: 300px;
+    border: solid red 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
